@@ -21,4 +21,24 @@ i{
     display: flex;
     flex-direction: row;
     width:100%;
+    height: 100vh;
+}
+
+.left-section{
+    width: 10%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    margin: auto 0px;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.middle-section{
+    width: 80%;
+}
+
+.right-section{
+    width: 10%;
+    height: 100%;
 }
