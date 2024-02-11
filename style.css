@@ -133,5 +133,105 @@ i{
 }
 
 .hero-section .write-up{
+    position: absolute;
+    right: 290px;
+    top: 270px;
+    z-index: 1;
+
+}
+
+.btn{
+    display: flex;
+}
+
+.hero-section p{
+    font-weight: 1000;
+    color: #f504cd;
+    margin-top: 10px;
+}
+
+.hero-section h1{
+    color: #490166;
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+.left-btn{
+    width: 160px;
+    height: 50px;
+    padding: 20px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    background: #fff;
+    color: #000;
+}
+
+.left-btn:hover{
+    box-shadow: 1px 0px 10px 1px #fcf6fb7a;
+}
+
+.right-btn{
+    width: 140px;
+    height: 50px;
+    padding: 20px;
+    font-size: 0.6rem;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    margin: auto 0px;
+    background: #f504cd;
+    color: #fff;
+}
+
+.right-btn:hover{
+    box-shadow: 1px 0px 10px 1px #ff06d691;
+}
+
+/* //////////////////////// second section ////////////////////////////////// */
+
+.second-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 250px 200px 100px 200px;
+    background-color: rgba(240, 230, 230, 0.61);
+}
+
+.second-section .boxes{
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    gap: 15px;
+    margin: auto 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section-box{
+    width: 220px;
+    height: 80px;
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+    background: #fff;
+    border-radius: 2px;
+    font-size: 0.8rem;
+}
+
+.second-section-box .number{
+    width: 30px;
+    height: 40px;
+    border: 1px #000 solid;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    border-radius: 100px;
+    font-size: 0.8rem;
+}
+
+.boxes .top-part{
+    margin-bottom: 20px;
 
 }
