@@ -207,6 +207,9 @@ i{
     align-items: center;
 }
 
+
+/* hello */
+/* // fmvisnb */
 .second-section-box{
     width: 220px;
     height: 80px;
@@ -219,7 +222,7 @@ i{
 }
 
 .second-section-box .number{
-    width: 30px;
+    width: 40px;
     height: 40px;
     border: 1px #000 solid;
     text-align: center;
@@ -235,3 +238,4 @@ i{
     margin-bottom: 20px;
 
 }
+
