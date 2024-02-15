@@ -193,6 +193,7 @@ i{
     display: flex;
     justify-content: space-between;
     gap: 100px;
+    align-items: center;
     padding: 250px 200px 100px 200px;
     background-color: rgba(240, 230, 230, 0.61);
 }
@@ -207,10 +208,7 @@ i{
     align-items: center;
 }
 
-
-/* hello */
-/* // fmvisnb */
-.second-section-box{
+.second-section-box {
     width: 220px;
     height: 80px;
     margin-bottom: 15px;
@@ -221,21 +219,25 @@ i{
     font-size: 0.8rem;
 }
 
+.three{
+    margin-bottom: none !important;
+}
 .second-section-box .number{
-    width: 40px;
-    height: 40px;
-    border: 1px #000 solid;
+  
+}
+
+.number{
+    border-radius: 50%;
+    background: #ffa600;
+    color: #fff;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 8px;
-    border-radius: 100px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 900;
+    padding: 1rem 1rem;
 }
 
-.boxes .top-part{
-    margin-bottom: 20px;
-
-}
 
