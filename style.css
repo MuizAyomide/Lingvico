@@ -223,7 +223,7 @@ i{
     margin-bottom: none !important;
 }
 .second-section-box .number{
-  
+  display: inline;
 }
 
 .number{
@@ -239,5 +239,6 @@ i{
     font-weight: 900;
     padding: 1rem 1rem;
 }
+
 
 
