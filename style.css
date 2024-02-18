@@ -189,21 +189,22 @@ i{
 
 /* //////////////////////// second section ////////////////////////////////// */
 
+section{
+    background-color: rgba(240, 230, 230, 0.61);
+}
 .second-section{
     display: flex;
     justify-content: space-between;
     gap: 100px;
     align-items: center;
-    padding: 250px 200px 100px 200px;
-    background-color: rgba(240, 230, 230, 0.61);
+    padding: 150px 200px 100px 200px;
 }
 
 .second-section .boxes{
     width: 1000px;
-    height: 200px;
+    height: 500px;
     display: flex;
     gap: 15px;
-    margin: auto 0px;
     justify-content: center;
     align-items: center;
 }
@@ -234,7 +235,8 @@ i{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 8px;
+    margin: auto 8px;
+    /* margin: auto; */
     font-size: 0.9rem;
     font-weight: 900;
     padding: 1rem 1rem;
