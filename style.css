@@ -193,6 +193,8 @@ i{
 
 section{
     background-color: rgba(240, 230, 230, 0.61);
+    height: 1000px;
+
 }
 .second-section{
     display: flex;
@@ -225,6 +227,7 @@ section{
 .three{
     margin-bottom: none !important;
 }
+
 .second-section-box .number{
   display: inline;
 }
@@ -241,7 +244,73 @@ section{
     /* margin: auto; */
     font-size: 0.9rem;
     font-weight: 900;
-    padding: 1rem 1rem;
+    padding: 0.8rem 1rem;
 }
 
+.img{
+    width: 100px;
+    height: 80px;
+}
+
+/* /////////////////////////////////// Third section /////////////////////////////// */
+
+.third-section{
+   position: absolute;
+   top: 1000px;
+   right: 0;
+   margin-left: 100px;
+   background-color: #fff;
+   padding: 30px 200px 30px 30px;
+}
+
+.content-container{
+    display: flex;
+}
+
+.third-section-left-box{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 290px;
+
+}
+
+.first-img{
+    width: 290px;
+}
+
+.third-section-left-box-second-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-section-left-box-second-box .write-up{
+    padding: 10px;
+}
+
+.write-up h3{
+    font-size: 0.6rem;
+    }
+
+.write-up p{
+    font-size: 0.5rem;
+}
+
+.second-img{
+    width: 250px;
+    height:100px;
+
+}
+
+.third-img{
+    width: 300px;
+}
+/* ///////////////////////////////////// Forth-section //////////////////////////////// */
+
+.forth-section{
+    width: 100%;
+    height: 700px;
+    background:rgb(73, 1, 102)
+}
 
