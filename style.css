@@ -98,6 +98,7 @@ i{
 .nav-bar div{
     padding: 0.45rem 0.75rem;
     transition: all 100ms ease;
+    cursor: pointer;
 }
 
 .nav-bar div:hover{
@@ -166,6 +167,7 @@ i{
     font-weight: 600;
     background: #fff;
     color: #000;
+    cursor: pointer;
 }
 
 .left-btn:hover{
@@ -183,6 +185,7 @@ i{
     margin: auto 0px;
     background: #f504cd;
     color: #fff;
+    cursor: pointer;
 }
 
 .right-btn:hover{
@@ -256,7 +259,7 @@ section{
 
 .third-section{
    position: absolute;
-   top: 1000px;
+   top: 1200px;
    right: 0;
    margin-left: 100px;
    background-color: #fff;
@@ -313,4 +316,3 @@ section{
     height: 700px;
     background:rgb(73, 1, 102)
 }
-
