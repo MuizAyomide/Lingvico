@@ -261,13 +261,14 @@ section{
    position: absolute;
    top: 1200px;
    right: 0;
-   margin-left: 100px;
+   margin-left: 600px;
    background-color: #fff;
    padding: 30px 200px 30px 30px;
 }
 
 .content-container{
     display: flex;
+    gap: 20px;
 }
 
 .third-section-left-box{
