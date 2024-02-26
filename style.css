@@ -95,6 +95,7 @@ i{
     display: flex;
     gap: 10px;
 }
+
 .nav-bar div{
     padding: 0.45rem 0.75rem;
     transition: all 100ms ease;
@@ -244,7 +245,6 @@ section{
     justify-content: center;
     align-items: center;
     margin: auto 8px;
-    /* margin: auto; */
     font-size: 0.9rem;
     font-weight: 900;
     padding: 0.8rem 1rem;
