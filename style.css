@@ -1,8 +1,8 @@
-*{
+     *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img{
@@ -95,7 +95,6 @@ i{
     display: flex;
     gap: 10px;
 }
-
 .nav-bar div{
     padding: 0.45rem 0.75rem;
     transition: all 100ms ease;
@@ -152,6 +151,7 @@ i{
     font-weight: 1000;
     color: #f504cd;
     margin-top: 10px;
+    font-size: small;
 }
 
 .hero-section h1{
@@ -193,18 +193,43 @@ i{
     box-shadow: 1px 0px 10px 1px #ff06d691;
 }
 
- /* //////////////////////// second section /////////////////////////// */
+/* //////////////////////// second section ////////////////////////////////// */
+
 section{
     background-color: rgba(240, 230, 230, 0.61);
     height: 1000px;
-
+    
 }
 .second-section{
     display: flex;
     justify-content: space-between;
     gap: 100px;
     align-items: center;
-    padding: 150px 200px 100px 200px;
+    padding: 150px 240px 100px 240px;
+}
+
+.second-section .write-up{
+    margin-bottom: 20px;
+}
+
+.third-section-right-box .top-text{
+    font-weight: 1000;
+    color: #f504cd;
+    /* margin-top: 10px; */
+    font-size: small;
+}
+
+.bottom-text{
+    /* font-weight: 10000; */
+    /* color: #f504cd; */
+    margin-top: 10px 10px 10px 10px;
+    font-size: 0.7rem;
+}
+
+.second-section .write-up h1{
+    color: #490166;
+    font-size: 1.8rem;
+    margin-bottom: 2px;
 }
 
 .second-section .boxes{
@@ -225,6 +250,8 @@ section{
     background: #fff;
     border-radius: 2px;
     font-size: 0.8rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .three{
@@ -244,6 +271,7 @@ section{
     justify-content: center;
     align-items: center;
     margin: auto 8px;
+    /* margin: auto; */
     font-size: 0.9rem;
     font-weight: 900;
     padding: 0.8rem 1rem;
@@ -260,26 +288,28 @@ section{
    position: absolute;
    top: 1200px;
    right: 0;
-   margin-left: 600px;
+   margin-left: 200px;
    background-color: #fff;
-   padding: 30px 200px 30px 30px;
+   padding: 40px 240px 40px 40px;
 }
 
 .content-container{
     display: flex;
-    gap: 20px;
+    gap: 45px;
+    justify-content: space-between;
+    overflow: hidden;
 }
 
 .third-section-left-box{
     display: flex;
     flex-direction: column;
     gap: 22px;
-    width: 290px;
+    width: 340px;
 
 }
 
 .first-img{
-    width: 290px;
+    width: 340px;
 }
 
 .third-section-left-box-second-box{
@@ -289,26 +319,58 @@ section{
 }
 
 .third-section-left-box-second-box .write-up{
-    padding: 10px;
+    padding: 20px 20px 20px 20px;
 }
 
-/* .write-up h3{
+.third-section-left-box-second-box .write-up h3{
+    font-size: 0.65rem;
+    margin-bottom: 10px;
+}
+
+.third-section-left-box-second-box .write-up p{
     font-size: 0.6rem;
-    }
-
-.write-up p{
-    font-size: 0.5rem;
-} */
-
+}
 .second-img{
-    width: 250px;
-    height:100px;
+    width: 300px;
+    height:120px;
 
 }
 
 .third-img{
-    width: 300px;
+    width: 390px;
 }
+
+
+.third-section-right-box{
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    width: 500px;
+    height: 482px;
+}
+.third-section-right-box .write-up .top-text{
+    font-weight: 1000;
+    color: #f504cd;
+    /* margin-top: 10px; */
+    font-size: small;
+}
+
+.third-section-right-box .write-up .bottom-text{
+    /* font-weight: 10000; */
+    /* color: #f504cd; */
+    margin: 0px 0px;
+    font-size: 0.6rem;
+    max-width: 50ch;
+}
+
+.second-section .write-up h1{
+    color: #490166;
+    font-size: 1.8rem;
+    margin-bottom: 2px;
+}
+
+
+
 /* ///////////////////////////////////// Forth-section //////////////////////////////// */
 
 .forth-section{
@@ -316,3 +378,5 @@ section{
     height: 700px;
     background:rgb(73, 1, 102)
 }
+
+/* when you want to write but you're working at debtrecuva  */
